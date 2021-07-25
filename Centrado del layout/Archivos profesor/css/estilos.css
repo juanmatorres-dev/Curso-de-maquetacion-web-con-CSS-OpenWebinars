@@ -19,6 +19,14 @@ h1,
   text-align: center;
 }
 
+/* Centrando el párrafo ( elemento en bloque ) */
+/*
+.image p {
+  margin: 20px auto;
+  width: 50%;
+}
+*/
+
 .main {
   background-color: blue;
   height: 200px;
