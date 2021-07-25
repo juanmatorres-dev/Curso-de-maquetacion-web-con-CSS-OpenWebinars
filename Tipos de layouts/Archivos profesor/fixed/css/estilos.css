@@ -19,8 +19,10 @@ article {
 }
 article:nth-child(1) {
   float: left;
+  /* color: red; */
 }
 
 article:nth-child(2) {
   float: right;
+  /* color: orange; */
 }
