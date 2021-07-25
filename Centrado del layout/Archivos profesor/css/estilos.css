@@ -1,0 +1,62 @@
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+h1,
+.image,
+.bloques {
+  border: 1px solid black;
+  text-align: center;
+}
+
+.main {
+  background-color: blue;
+  height: 200px;
+  margin: 20px auto;
+  width: 50%;
+}
+
+.bloques {
+  background-color: red;
+  height: 400px;
+  margin: 40px auto;
+  width: 60%;
+}
+
+.bloques div {
+  background-color: chartreuse;
+  display: inline-block;
+  height: 200px;
+  margin-top: 100px;
+  width: 25%;
+}
+
+.vpadding {
+  border: 1px solid black;
+  padding: 50px;
+  text-align: center;
+}
+
+.vdisplay {
+  border: 1px solid black;
+  display: table;
+  height: 300px;
+  margin: 30px auto;
+  width: 60%;
+}
+
+.vdisplay p {
+  display: table-cell;
+  padding: 20px;
+  vertical-align: middle;
+}
