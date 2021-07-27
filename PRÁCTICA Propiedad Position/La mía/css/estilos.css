@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: gainsboro;
+}
+
+.container {
+    margin: 20px auto;
+    width: 80%;
+    height: 600px;
+    top: 70px;
+    position: relative;
+    background-color: #9deb92;
+    border-bottom-left-radius: 25px;
+}
+
+.container nav {
+    background-color: gray;
+    padding: 10px;
+    height: 60px;
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+}
+
+.nav-item {
+    color: white;
+    font-size: 18px;
+    display: inline-block;
+    padding: 10px;
+    width: 20%;
+}
+
+figure {
+    border: 3px solid black;
+    border-radius: 15px;
+    background-color: white;
+    text-align: center; /* Texto sin <p></p> e <img> son elementos en línea y se centran con text-align en su etiqueta padre */
+    width: 25%;
+    position: relative;
+}
+
+#li1 {
+    top: 100px;
+    left: 20%;
+    transform: rotate(-0.125turn);
+    z-index: 5;
+}
+
+#li2 {
+    top: -160px;
+    left: 32%;
+    transform: rotate(0.125turn);
+}
+
+img {
+    width: 80%;
+    padding-top: 10px;
+}
+
+figcaption {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
