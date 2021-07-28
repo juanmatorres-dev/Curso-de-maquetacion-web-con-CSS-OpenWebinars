@@ -41,32 +41,32 @@ figure {
     background-color: white;
     text-align: center; /* Texto sin <p></p> e <img> son elementos en línea y se centran con text-align en su etiqueta padre */
     width: 25%;
-    position: relative;
+    position: absolute;
 }
 
 #li1 {
-    top: 100px;
+    top: 150px;
     left: 20%;
     transform: rotate(-0.125turn);
     z-index: 5;
 }
 
 #li2 {
-    top: -160px;
+    top: 160px;
     left: 30%;
     transform: rotate(0.125turn);
     z-index: 4;
 }
 
 #li3 {
-    top: -420px;
+    top: 200px;
     left: 39%;
     transform: rotate(-0.05turn); 
     z-index: 3;
 }
 
 #li4 {
-    top: -695px;
+    top: 240px;
     left: 50%;
     transform: rotate(0.05turn); 
     z-index: 2;
