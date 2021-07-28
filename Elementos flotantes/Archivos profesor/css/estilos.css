@@ -20,7 +20,8 @@
   clear: right;
 }
 
-.container:nth-of-type(3) {
-  /*overflow-y: auto;*/
-  /*height: 130px;*/
+.container:nth-of-type(3) { /* 3º container */ 
+  /* Poner uno de los dos */
+  overflow-y: auto; /* Auto */
+  /* height: 130px; */ /* Manuel */
 }
