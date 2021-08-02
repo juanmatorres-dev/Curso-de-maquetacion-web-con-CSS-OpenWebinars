@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Teko', sans-serif;
 }
 
 body {
@@ -44,3 +44,15 @@ nav .menu-item:nth-child(1) {
 .image-container img {
     width: 100%;
 }
+
+.image-container .buy {
+    position: absolute;
+    background-color: #121867;
+    color: #ce2e83;
+    border-radius: 25px;
+    padding: 25px;
+
+    top: 250px;
+    left: 50%;
+}
+
