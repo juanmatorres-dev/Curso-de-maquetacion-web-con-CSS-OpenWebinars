@@ -36,3 +36,11 @@ nav .menu-item:nth-child(1) {
     position: relative;
     left: 25px;
 }
+
+.image-container {
+    border: 1px solid black;
+}
+
+.image-container img {
+    width: 100%;
+}
