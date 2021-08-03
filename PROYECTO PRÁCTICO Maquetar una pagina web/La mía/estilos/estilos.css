@@ -38,7 +38,7 @@ nav .menu-item:nth-child(1) {
 }
 
 .image-container {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     position: relative;
 }
 
@@ -52,13 +52,13 @@ nav .menu-item:nth-child(1) {
     color: #ce2e83;
     border-radius: 25px;
     
-    padding-top: 25px;
+    padding-top: 10px;
     padding-left: 50px;
     padding-right: 50px;
-    padding-bottom: 25px;
+    padding-bottom: 10px;
 
     top: 180px;
-    left: 70%;
+    left: 66%;
 
     text-align: center;
 }
@@ -76,4 +76,56 @@ nav .menu-item:nth-child(1) {
     margin-right: 20px;
 
     border-radius: 10px;
+}
+
+.image-container>p {
+    text-align: center;
+    color: #144893;
+    font-size: 2.4em;
+}
+
+.imgs-with-description {
+    /* border: 1px solid black; */
+    text-align: center;
+}
+
+.imgs-with-description .border-top , .imgs-with-description .border-bottom {
+    border-top: #ce2e83 solid;
+    width: 25%;
+    margin: 0 auto;
+}
+
+.imgs-with-description .border-top {
+    margin-bottom: 20px;
+}
+
+.imgs-with-description .border-bottom {
+    margin-top: 30px;
+}
+
+.imgs-with-description figure {
+    display: inline-block;
+    /* border: 1px solid black; */
+    margin: 0px;
+}
+
+.imgs-with-description figure img {
+    width: 50%;
+}
+
+.texts-with-img {
+    border: 1px solid black;
+    margin-top: 25px;
+    overflow-y: auto;
+}
+
+.texts-with-img img {
+    border: 1px solid black;
+    float: left;
+}
+
+.texts-with-img p {
+    color: #144893;
+    text-align: center;
+    width: 50%;
 }
