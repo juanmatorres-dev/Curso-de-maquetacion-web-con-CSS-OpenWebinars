@@ -39,6 +39,7 @@ nav .menu-item:nth-child(1) {
 
 .image-container {
     border: 1px solid black;
+    position: relative;
 }
 
 .image-container img {
@@ -50,9 +51,29 @@ nav .menu-item:nth-child(1) {
     background-color: #121867;
     color: #ce2e83;
     border-radius: 25px;
-    padding: 25px;
+    
+    padding-top: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 25px;
 
-    top: 250px;
-    left: 50%;
+    top: 180px;
+    left: 70%;
+
+    text-align: center;
 }
 
+
+.image-container .buy .buy-button {
+    background-color: #ce2e83;
+    color: white;
+
+    padding: 15px;
+    
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+    border-radius: 10px;
+}
