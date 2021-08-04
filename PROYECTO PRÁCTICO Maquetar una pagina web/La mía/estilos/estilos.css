@@ -119,13 +119,17 @@ nav .menu-item:nth-child(1) {
     overflow-y: auto;
 }
 
-.texts-with-img img {
+.texts-with-img .container-to-center img {
     border: 1px solid black;
     float: left;
 }
 
 .texts-with-img p {
     color: #144893;
-    text-align: center;
+}
+
+.container-to-center {
+    border: 1px solid black;
     width: 50%;
+    margin: 0 auto;
 }
