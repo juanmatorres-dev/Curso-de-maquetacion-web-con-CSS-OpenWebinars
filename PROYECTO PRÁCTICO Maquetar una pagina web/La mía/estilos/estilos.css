@@ -157,3 +157,40 @@ nav .menu-item:nth-child(1) {
 .img-gallery .container-to-center img {
     width: 18%;
 }
+
+footer {
+    /* border: 1px solid black; */
+    background-color: #121867;
+    overflow-y: auto;
+    height: 100px;
+    column-count: 3;
+}
+
+footer div {
+    display: inline-block;
+}
+
+footer div:nth-child(1) {
+    /* border: 1px solid white; */
+    color: #ce2e83;
+    margin-top: 20px;
+    width: 200px;
+    padding-left: 15px;
+}
+
+footer div:nth-child(2) {
+    /* border: 1px solid white; */
+    color: #ce2e83;
+    margin-top: 20px;
+    height: 50px;
+}
+
+footer div:nth-child(3) {
+    /* border: 1px solid white; */
+    float: right;
+    margin-top: 20px;
+}
+
+footer div:nth-child(3) img {
+    width: 15%;
+}
